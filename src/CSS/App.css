@@ -7,13 +7,11 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #00aab3aa);
 }
 
 /*Header or Nav Bar Styles*/
@@ -70,14 +68,9 @@
   border-bottom: #24242433 solid 0.8px;
 }
 
-/*
-.NavBar {
-  display: flex;
-  align-items: center;
-  padding: 16px 54px;
-  justify-content: space-between;
+.ToDoItem:hover {
+  background-color: #00adb51a;
 }
-*/
 
 /*Footer Styles*/
 
