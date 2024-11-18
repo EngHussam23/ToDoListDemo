@@ -4,7 +4,7 @@ This is a demo project to practice React with TypeScript and Vite.
 
 ## Project Overview
 
-This project is about creating a ToDo List UI designed by Hamzah Almuheisen.
+This project is about creating a ToDo List UI designed by [Hamzah Almuheisen](https://github.com/hamzaAlmuhisen).
 
 ## Key Features
 
