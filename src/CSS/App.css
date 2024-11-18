@@ -1,0 +1,87 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #242424;
+  width: 100%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+/*Header or Nav Bar Styles*/
+
+.NavBar {
+  display: flex;
+  align-items: center;
+  padding: 16px 54px;
+  justify-content: space-between;
+}
+
+.NavBar div {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.NavIcon {
+  width: 48px;
+  height: 48px;
+}
+
+/*Homepage Styles*/
+
+.HomepageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 462px;
+}
+
+.AddToDoBtn {
+  padding: 0 54px;
+  font-size: 47.76px;
+  color: #eeeeee;
+  background-color: #00adb5;
+}
+
+.ToDoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  height: 50%;
+  overflow-y: scroll;
+}
+
+.ToDoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: #24242433 solid 0.8px;
+}
+
+/*
+.NavBar {
+  display: flex;
+  align-items: center;
+  padding: 16px 54px;
+  justify-content: space-between;
+}
+*/
+
+/*Footer Styles*/
+
+.Footer {
+  font-family: Roboto;
+  font-size: 14px;
+}
